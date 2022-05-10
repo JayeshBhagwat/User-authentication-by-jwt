@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script&family=Quicksand:wght@300&family=Rubik+Moonrocks&family=Space+Mono:ital@0;1&family=Syne+Mono&family=Tajawal:wght@300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./style/style.css">
+        <title>Plans</title>
+    </head>
+    <body>
+        <div class="plans-div">
+            <div class="email-box-upgrade">
+                <input type="email" class="form-control" id="upgrade_email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="select-div">
+                <select class="form-select form-select-lg mb-3 select-tag" aria-label=".form-select-lg example" id="plan_value">
+                    <option selected value="">Select Plan</option>
+                    <option value="basic">Basic Plan</option>
+                    <option value="premium">Premium Plan</option>
+                </select>
+                <div class="upgrade-div">
+                    <button type="button" class="btn btn-success" id="upgrade">Upgrade</button>
+                </div>
+            </div>
+        </div>
+        <script src="./upgrade_plan.js"></script>
+    </body>
+</html>
